@@ -20,6 +20,7 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+import java.io.InputStream;
 
 
 public class Main extends Application {
@@ -60,23 +61,23 @@ public class Main extends Application {
         // EuroOldPrice in a Label
         Label labelEuroOldPrice = new Label("    EUR");
         // HBox
-        HBox hBoxOldPrice = new HBox(labelOldPrice, textfieldOldPrice, labelEuroOldPrice); //, hBoxUpdate);
+        HBox hBoxOldPrice = new HBox(labelOldPrice, textfieldOldPrice, labelEuroOldPrice);
         hBoxOldPrice.setAlignment(Pos.CENTER_LEFT);
         hBoxOldPrice.setPadding(new Insets(20, 20, 0, 20));
 
-        // NewPrice: Label & Textfield
+        // -> NewPrice: Label & Textfield
         Label labelNewPrice = new Label("New Price          ");
         labelNewPrice.setPadding(new Insets(0, 20, 0, 0));
         TextField textFieldNewPrice = new TextField();
         // EuroNewPrice in a Label
         Label labelEuroNewPrice = new Label("    EUR");
         // HBox
-        HBox hBoxNewPrice = new HBox(labelNewPrice, textFieldNewPrice, labelEuroNewPrice); //hBSave);
+        HBox hBoxNewPrice = new HBox(labelNewPrice, textFieldNewPrice, labelEuroNewPrice);
         hBoxNewPrice.setAlignment(Pos.CENTER_LEFT);
         hBoxNewPrice.setSpacing(0);
         hBoxNewPrice.setPadding(new Insets(20, 20, 10, 20));
 
-        // Image
+        // -> Image
         ImageView imageView = new ImageView();
         imageView.setFitHeight(150);
         imageView.setFitWidth(150);
@@ -139,7 +140,6 @@ public class Main extends Application {
                 new Product("Zucker", "500 Gramm Packung", 1.39, 0.89,
                         "/resources/Zucker.png", "Natürliches Gelieren wird durch Apfelpektin unterstützt, welches im richtigen Verhältnis mit Zitronensäure und Kristallzucker abgemischt wurde."));
 
-
         ListView<Product> productList = new ListView<>();
         productList.setItems(items);
 
@@ -179,10 +179,10 @@ public class Main extends Application {
         /*
         (10)  Synchronize clicks on ListView with the display of product properties on the right side.
         */
-        // SHOW
-        VBox appearance = new VBox(hBoxName, hBoxQuantity, hBoxOldPrice, hBoxNewPrice, buttons, hBoxImage, labelDescription, textdescription);
-        appearance.setPrefSize(600, 400);
-        HBox allOver = new HBox(appearance, productList);
+        // Show
+        VBox show = new VBox(hBoxName, hBoxQuantity, hBoxOldPrice, hBoxNewPrice, buttons, hBoxImage, labelDescription, textdescription);
+        show.setPrefSize(600, 400);
+        HBox allOver = new HBox(show, productList);
         allOver.setSpacing(35);
 
         Scene scene = new Scene(allOver, 900, 600);
