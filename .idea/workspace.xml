@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51ece66-00fc-47b6-a30b-194698b5710f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Product/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,11 +20,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Product/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="79" selection-start-line="79" selection-end-line="80" />
+            <state relative-caret-position="182">
+              <caret line="182" column="31" selection-start-line="182" selection-start-column="31" selection-end-line="182" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8311#8312#0" expanded="true" />
+                <element signature="e#8310#8311#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,7 +184,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32935917" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20644216" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20566319" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,11 +263,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Product/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="79" selection-start-line="79" selection-end-line="80" />
+        <state relative-caret-position="182">
+          <caret line="182" column="31" selection-start-line="182" selection-start-column="31" selection-end-line="182" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8311#8312#0" expanded="true" />
+            <element signature="e#8310#8311#0" expanded="true" />
           </folding>
         </state>
       </provider>

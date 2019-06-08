@@ -92,7 +92,6 @@ public class Main extends Application {
         // Text
         Text textdescription = new Text();
        // textDescription.setWrapText(true);
-
         // HBox
         HBox HboxDescription = new HBox();
         HboxDescription.setPadding(new Insets(0, 0, 0, 20));
@@ -181,11 +180,11 @@ public class Main extends Application {
         */
         // Show
         VBox show = new VBox(hBoxName, hBoxQuantity, hBoxOldPrice, hBoxNewPrice, buttons, hBoxImage, labelDescription, textdescription);
-        show.setPrefSize(600, 400);
+        show.setPrefSize(500, 600);
         HBox allOver = new HBox(show, productList);
-        allOver.setSpacing(35);
+        allOver.setSpacing(20);
 
-        Scene scene = new Scene(allOver, 900, 600);
+        Scene scene = new Scene(allOver, 800, 600);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
