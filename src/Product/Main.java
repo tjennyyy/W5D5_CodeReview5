@@ -181,10 +181,10 @@ public class Main extends Application {
         // Show
         VBox show = new VBox(hBoxName, hBoxQuantity, hBoxOldPrice, hBoxNewPrice, buttons, hBoxImage, labelDescription, textdescription);
         show.setPrefSize(500, 600);
-        HBox allOver = new HBox(show, productList);
-        allOver.setSpacing(20);
+        HBox showList = new HBox(show, productList);
+        showList.setSpacing(20);
 
-        Scene scene = new Scene(allOver, 800, 600);
+        Scene scene = new Scene(showList, 800, 600);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
